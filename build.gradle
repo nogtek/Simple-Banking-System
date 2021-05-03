@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'org.xerial:sqlite-jdbc:3.34.0'
+    compile 'org.xerial:sqlite-jdbc:3.8.11.2'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class' : 'Main'
+        attributes 'Class-Path' : 'sqlite-jdbc-3.34.0.jar'
+    }
+}
