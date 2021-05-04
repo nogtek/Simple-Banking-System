@@ -6,7 +6,7 @@ cd Simple-Banking-System\build\libs
 java -jar Simple_Banking_System-1.0-SNAPSHOT.jar
 ```
 ### About
-This program simulates a bank terminal, which a person can perform simple banking activities. All account information is saved to the database (SQLite) in a file "card.s3db".
+This program simulates a bank terminal, which a person can perform simple banking activities. All account information is saved to the database in a file "card.s3db".
 The cards are generated in accordance with the Luhn algorithm.
 ### Features
 The user can create an account / close an account.
