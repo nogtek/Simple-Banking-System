@@ -2,7 +2,7 @@
 ### Installation
 ```
 git clone https://github.com/nogtek/Simple-Banking-System.git
-cd Simple-Banking-System\build\libs
+cd Simple-Banking-System/build/libs
 java -jar Simple_Banking_System-1.0-SNAPSHOT.jar
 ```
 ### About
